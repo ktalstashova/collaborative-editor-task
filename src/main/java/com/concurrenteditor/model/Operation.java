@@ -1,4 +1,4 @@
-package com.concurrenteditor.demo.document.model;
+package com.concurrenteditor.model;
 
 /**
  * Model of Operation triggered by User or Server

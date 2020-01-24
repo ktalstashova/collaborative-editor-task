@@ -38,7 +38,7 @@ jQuery(function ($) {
         document: undefined,
 
         init: function () {
-            let thisRef = this;
+            let that = this;
             if (that.isDebugMode)
                 console.debug("Init model");
             $.ajax({
@@ -46,14 +46,14 @@ jQuery(function ($) {
             }).then(function (data) {
                 if (that.isDebugMode)
                     console.debug("Model has been fetched " + JSON.stringify(data));
-                thisRef.document = new SortedMap({}, thisRef.equals,
-                    thisRef.keyComparator);
+                that.document = new SortedMap({}, that.equals,
+                    that.keyComparator);
                 for (let key in data) {
                     if (data.hasOwnProperty(key)) {
-                        thisRef.document.set(JSON.parse(key), data[key]);
+                        that.document.set(JSON.parse(key), data[key]);
                     }
                 }
-                thisRef.print();
+                that.print();
             });
             return this;
         },

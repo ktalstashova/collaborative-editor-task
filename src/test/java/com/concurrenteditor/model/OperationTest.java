@@ -1,4 +1,4 @@
-package com.concurrenteditor.demo.document.model;
+package com.concurrenteditor.model;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

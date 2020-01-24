@@ -1,6 +1,5 @@
-package com.concurrenteditor.demo.document.model;
+package com.concurrenteditor.model;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;

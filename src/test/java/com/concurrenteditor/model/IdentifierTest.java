@@ -1,6 +1,5 @@
-package com.concurrenteditor.demo.document.model;
+package com.concurrenteditor.model;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
 import java.util.Arrays;
 

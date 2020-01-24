@@ -1,4 +1,4 @@
-package com.concurrenteditor.demo.document.config;
+package com.concurrenteditor.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

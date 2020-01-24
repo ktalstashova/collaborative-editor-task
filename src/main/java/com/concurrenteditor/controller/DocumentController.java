@@ -1,8 +1,8 @@
-package com.concurrenteditor.demo.document.controller;
+package com.concurrenteditor.controller;
 
-import com.concurrenteditor.demo.document.model.Document;
-import com.concurrenteditor.demo.document.model.Operation;
-import com.concurrenteditor.demo.document.model.Identifier;
+import com.concurrenteditor.model.Document;
+import com.concurrenteditor.model.Operation;
+import com.concurrenteditor.model.Identifier;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
