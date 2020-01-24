@@ -19,6 +19,7 @@ public class Identifier implements Comparable<Identifier>{
     private final String clientId;
 
     /**
+     * Identifier constructor.
      * @param position - an array of int numbers defining a position of symbol.
      * @param clientId - an id of a client.
      */
@@ -33,6 +34,7 @@ public class Identifier implements Comparable<Identifier>{
     }
 
     /**
+     * Identifier constructor.
      * @param position  - an number defining a position of symbol.
      */
     public Identifier(int position)
@@ -42,6 +44,7 @@ public class Identifier implements Comparable<Identifier>{
     }
 
     /**
+     * Identifier constructor.
      * @param position - an number defining a position of symbol.
      * @param clientId - an id of a client.
      */
