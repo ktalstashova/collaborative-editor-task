@@ -236,7 +236,7 @@ jQuery(function ($) {
             if (e.keyCode === BACKSPACE_KEY || e.keyCode === DELETE_KEY) {
                 if (this.assertNoSelection()) {
                     console.log('keydown');
-                    this.deleteAtCaret(e.keyCode === DELETE_KEY ? 0 : 0);
+                    this.deleteAtCaret(e.keyCode === DELETE_KEY ? 0 : -1);
                 } else {
                     e.preventDefault();
                 }
