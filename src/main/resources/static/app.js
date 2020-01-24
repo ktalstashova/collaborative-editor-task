@@ -42,7 +42,7 @@ jQuery(function ($) {
             if (that.isDebugMode)
                 console.debug("Init model");
             $.ajax({
-                url: "http://localhost:8080/document?no-cache="+Math.random()
+                url: "/document?no-cache="+Math.random()
             }).then(function (data) {
                 if (that.isDebugMode)
                     console.debug("Model has been fetched " + JSON.stringify(data));
