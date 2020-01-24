@@ -229,6 +229,9 @@ jQuery(function ($) {
                 let symbol = String.fromCharCode(event.charCode);
                 this.insertAtCaret(symbol);
             }
+            else {
+                event.preventDefault();
+            }
         },
 
         keydown: function (e) {
